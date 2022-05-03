@@ -21,10 +21,11 @@ $arrayAlunni = array(
 );
 
 for ($i = 0; $i < count($arrayAlunni); $i++) {
-    var_dump($arrayAlunni[$i]);
-    for ($j = 0; $j < count($arrayAlunni); $j++) {
-        $element = $arrayAlunni[$i][$j];
-        echo ($element);
+    echo ("nome: " . $arrayAlunni[$i][0]);
+    for ($j = 0; $j < count($arrayAlunni[$j]); $j++) {
+        echo ("<p>");
+        var_dump($arrayAlunni[$j]);
+        echo ("<p>");
     }
 }
 
@@ -34,4 +35,4 @@ for ($i = 0; $i < count($arrayAlunni); $i++) {
 ?>
 
 
-<h1>Snack_5</h1>
+<h1>Snack_Bonus</h1>
