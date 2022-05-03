@@ -23,7 +23,7 @@ $arrayAlunni = array(
 for ($i = 0; $i < count($arrayAlunni); $i++) {
     echo ("nome: " . $arrayAlunni[$i][0]);
     for ($j = 0; $j < count($arrayAlunni[$j]); $j++) {
-        echo ("voti:");
+        echo ("<br> voti:");
         echo ("<p>");
         var_dump($arrayAlunni[$j]);
         echo ("<p>");
